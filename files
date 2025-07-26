@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         String url = "jdbc:postgresql://localhost:5432/alien";
         String user = "postgres";
-        String pass = "Avaya@123";
+        String pass = "";
         String query = "SELECT * FROM stud";
         String query1 = "insert into stud values(?,?)";
         int userid =2;
